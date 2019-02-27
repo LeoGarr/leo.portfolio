@@ -1,0 +1,21 @@
+.story {
+  float: right;
+  position: relative;
+  width: 450px;
+}
+
+
+.educa {
+  position: relative;
+  font-weight: 700;
+  float: left;
+
+}
+
+h2 {
+  position: relative;
+  font-weight: 700;
+  clear: both;
+  float: left;
+
+}

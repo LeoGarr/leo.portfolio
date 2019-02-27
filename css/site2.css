@@ -1,0 +1,132 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 1.25rem;
+    border-bottom: .5rem solid #000;
+	text-transform: uppercase;
+	font-size: 300%;
+}
+
+p {
+	text-align: justify;
+	margin: 1.25rem 0;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+}
+
+
+nav a {
+	text-transform: lowercase;
+}
+
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 5rem;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 0.6rem solid black;
+	border-bottom: 0.6rem solid black;
+}
+
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 19.3rem;
+}
+
+.icones-redes-sociais a {
+	width: 2.5rem;
+	height: 2.5rem;
+	display: block;
+	text-indent: -99999rem;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+.github {
+	background-image: url(img/github.png);
+}
+
+.twitter {
+	background-image: url(img/twitter.png);
+}
+
+.linkedin {
+	background-image: url(img/linkedin.png);
+}

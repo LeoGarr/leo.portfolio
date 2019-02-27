@@ -1,0 +1,13 @@
+.text-holder{
+  width: 780px;
+  display: inline-block;
+  margin-top: -50px;
+  text-align: justify;
+  line-height: 1.8rem;
+
+
+}
+
+.page{
+  text-align: center;
+}

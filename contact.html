@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Leandro Garrido</title>
+    <!--<link rel="stylesheet" href="reset.css">-->
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    em {
+      opacity: 0.7;
+      font-family: 'Miriam Libre', sans-serif;
+      font-style: normal;
+    }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a  class="logo" href="home.html">Leandro Garrido</a>
+        <ul class="nav">
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="resume.html">
+            <li>Resume</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="hero-wrap">
+        <h1>Let's talk?</h1>
+      </div>
+    </section>
+    <section class="page">
+      <div class="text-holder">
+        <form>
+            <fieldset>
+                <legend>Your information</legend>
+                <label for="nome">Name</label>
+                <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email" required placeholder="you@email.com">
+            </fieldset>
+            <textarea id="mensagem" name="mensagem" cols="60" rows="10" placeholder="Type your message"></textarea>
+            <button type="submit">Send message</button>
+        </form>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NIK-faB44js?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+      <footer>
+        <div class="wrap-footer">
+          <a class="email" href="mailto:lgarrido@oswego.edu">
+            Email
+          </a>
+          <a class="linkedin" href="https://www.linkedin.com/in/leandrogarrido/">
+            LinkedIn
+          </a>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
