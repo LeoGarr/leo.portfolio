@@ -1,0 +1,301 @@
+.foto-home {
+    height: 12.5rem;
+    border-radius: 50%;
+}
+
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40%;
+    margin-top: 0rem;
+}
+
+.saudacao p {
+    color: #99A;
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    margin-right: 10rem;
+    font-size: 2rem;
+}
+.saudacao-inicio {
+    color: #889;
+    font-size: 5rem;
+}
+
+.nome-dele {
+    font-size: 4rem;
+
+}
+
+#maravilhosos{
+    font-size: 6rem;
+    display: inline-block;
+    transform: rotate(-5deg) skew(-10deg);
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+}
+.saudacao em {
+    color: #851944;
+}
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 400px;
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+.secao-inicio h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+   
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    padding: 1.5rem;
+    
+}
+.trabalhos h2 {
+    color: #FFF;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: 10px solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+    padding: 1.5rem;
+
+}
+
+.blog li a {
+    color: #FCF;
+    padding: .5rem;
+    display: block;
+}
+
+.blog small{
+
+    position: relative;
+    
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 1.5rem;
+}
+
+footer h2{
+
+    font-size: 2rem;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+
+ul {
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+header {
+    position: relative;
+}
+.palavra-home{
+    position: absolute;
+    color: #D5447E;
+    font-family: "Shadows Into Light";
+    font-weight: bold;
+    font-size: 2rem;
+    perspective: 6px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.eficiencia {
+    top: 30%;
+    left: 75%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px);
+}
+
+.boas-praticas {
+    top: 80%;
+    left: 20%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(-50%, -50%) rotate(10deg) translateZ(1px);
+
+}
+
+.codigo-limpo {
+    top: 55%;
+    left: 10%;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+            transform: translate(-50%, -50%) rotate(-10deg) translateZ(2px);
+
+}
+
+.css3 {
+    top: 60%;
+    left: 30%;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+            transform: translate(-50%, -50%) rotate(5deg) translateZ(2px);
+
+}
+
+.html5 {
+    top: 50%;
+    left: 80%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+
+}
+
+.javascript {
+    top: 15%;
+    left: 60%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px);
+
+}
+
+.acessibilidade {
+    top: 35%;
+    left: 15%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px);
+
+}
+
+.responsivo {
+    top: 15%;
+    left: 10%;
+    top: 15%;
+    left: 15%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(-50%, -50%) rotate(10deg) translateZ(3px);
+
+}
+
+.otimizacoes {
+    top: 70%;
+    left: 70%;
+    top: 60%;
+    left: 70%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
+
+}
+
+.agilidade {
+    top: 10%;
+    left: 27%;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+            transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
+
+}
+
+.design {
+    top: 45%;
+    left: 65%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+
+}
+
+
+.inicio-post{
+
+    background-color: #F2FFFC;
+    position: absolute;
+    color: black;
+    top: 3em;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
+}
+
+.blog {
+
+    background-color: #999;
+    position: relative;
+}
+
+.mais-recente {
+    background-color: #F2FFFC;
+
+}
+
+.blog li {
+    width: 28rem;
+}
+
+.banner-twitter {
+    width: 14em;
+    line-height: 1;
+    padding: .5em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(6.5754em, -2.4749em) rotate(45deg);
+}
